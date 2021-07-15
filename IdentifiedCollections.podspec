@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/HealthTap/swift-identified-collections.git', :tag => s.version }
     s.swift_versions = ['5.1']
     s.source_files = 'Sources/IdentifiedCollections/**/*.swift'
+    s.dependency 'OrderedCollections'
   
     s.ios.deployment_target = '11.0'
   end
