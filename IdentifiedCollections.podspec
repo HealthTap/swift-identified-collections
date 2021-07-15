@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
     s.source_files = 'Sources/IdentifiedCollections/**/*.swift'
     s.dependency 'OrderedCollections'
   
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '13.0'
   end
